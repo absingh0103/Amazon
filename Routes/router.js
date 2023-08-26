@@ -221,8 +221,8 @@ router.post(
       payment_method_types: ["card"],
       line_items: lineItems,
       mode: "payment",
-      success_url: "http://localhost:3000/success",
-      cancel_url: "http://localhost:3000/cancel",
+      success_url: "/success",
+      cancel_url: "/cancel",
     });
     resp.json({id:session.id})
     
