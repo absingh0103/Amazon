@@ -221,8 +221,8 @@ router.post(
       payment_method_types: ["card"],
       line_items: lineItems,
       mode: "payment",
-      success_url: "https://adventurous-cape-tuna.cyclic.cloud/success",
-      cancel_url: "https://adventurous-cape-tuna.cyclic.cloud/cancel",
+      success_url: "https://amazon.cyclic.cloud/success",
+      cancel_url: "https://amazon.cyclic.cloud/cancel",
     });
     resp.json({id:session.id})
     
