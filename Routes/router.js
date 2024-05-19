@@ -221,8 +221,8 @@ router.post(
       payment_method_types: ["card"],
       line_items: lineItems,
       mode: "payment",
-      success_url: "https://amazon.cyclic.cloud/success",
-      cancel_url: "https://amazon.cyclic.cloud/cancel",
+      success_url: "https://amazon-production-1a1e.up.railway.app/success",
+      cancel_url: "https://amazon-production-1a1e.up.railway.app/cancel",
     });
     resp.json({id:session.id})
     
